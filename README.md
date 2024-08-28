@@ -1,1 +1,4 @@
-# ercaneray.github.io
+# Computer Engineer
+
+### Education
+Ataturk University
