@@ -111,7 +111,6 @@ header {
 
 .project-image {
     width: 100%;
-    height: 100%;
     margin-bottom: 1rem;
     border-radius: 8px;
     overflow: hidden;
@@ -136,20 +135,20 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Mobil proje için (1:2.2 oranı) */
 .project-card:nth-child(3) .project-image {
-    width: 280px; /* Mobil ekran genişliği için uygun bir değer */
-    height: 610px; /* 280 * (2622/1206) ≈ 610 */
+    width: 280px;
+    height: 610px;
     margin: 0 auto 1rem auto;
 }
 
 .project-card:nth-child(3) .project-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Hover efektleri */
