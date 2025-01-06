@@ -171,4 +171,25 @@ header {
         width: 220px; /* Daha küçük ekranlar için */
         height: 480px; /* 220 * (2622/1206) ≈ 480 */
     }
+}
+
+.profile-text p {
+    margin-bottom: 1rem;
+}
+
+.profile-list {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+.profile-list li {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.profile-list li:before {
+    content: "•";
+    position: absolute;
+    left: -1.5rem;
+    color: #2c3e50;
 } 
