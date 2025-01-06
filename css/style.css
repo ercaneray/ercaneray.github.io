@@ -109,7 +109,26 @@ header {
     font-size: 0.9rem;
 }
 
-/* Responsive tasarım */
+.project-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+/* Responsive düzenlemeler için */
 @media (max-width: 768px) {
     .profile {
         flex-direction: column;
@@ -118,5 +137,9 @@ header {
 
     .social-links {
         justify-content: center;
+    }
+
+    .project-image {
+        height: 180px;
     }
 } 
